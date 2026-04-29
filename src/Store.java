@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public abstract class Store {
     private ArrayList<Product> products;
-//    private ArrayList<OrderItem> orderItems;
+    private ArrayList<OrderItem> orderItems;
 
 
     public Store(ArrayList<Product> products, ArrayList<OrderItem> orderItems) {
